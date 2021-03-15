@@ -14,7 +14,7 @@ from shapely.geometry import LineString
     '--width', '-w', default=40
 )
 @vp.generator
-def scribbletrace(filename, width, scribbletype):
+def scribbletrace(filename, width):
 
     img = io.imread(filename, as_gray=True)
 

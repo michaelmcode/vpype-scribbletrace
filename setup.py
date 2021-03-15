@@ -20,9 +20,11 @@ setup(
     install_requires=[
         'click',
         'vpype',
+        'scikit-image',
+        'shapely',
     ],
     entry_points='''
             [vpype.plugins]
-            scribbletrace=vpype_scribbletrace.scribbletrace:scribbletrace
+            scribbletrace=vpype_scribbletrace.vpype_scribbletrace:scribbletrace
         ''',
 )
